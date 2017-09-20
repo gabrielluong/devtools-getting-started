@@ -44,7 +44,7 @@ git remote update
 ```
 * By now, you won't actually see any files in your gecko folder. You need to create a branch to actually checkout the source code. mozilla/bookmarks/central represent the development branch that we will be branching off from. Think of it as the equivalent of master.
 ```
-git checkout -b bugxxxxxxx mozilla/bookmarks/central  #<xxxxxxx> would be the bug number so just enter anything for now.
+git checkout -b master mozilla/central
 ```
 * You just finished grabbing the source code!
 
