@@ -5,6 +5,7 @@ You will find the DevTools source code lives inside of devtools/. The client cod
 # Tasks to Complete
 * [Create a Mozilla Bugzilla Account](#create-a-mozilla-bugzilla-account)
 * [Setup Development Environment](#setup-development-environment)
+* [Setup MozReview](#setup-mozreview)
 * Join Slack for Communication - [Firefox DevTools Slack](https://devtools-html-slack.herokuapp.com/)
 * Setup ESLint for your Text Editor - [ESLint Setup Guide](https://wiki.mozilla.org/DevTools/CodingStandards#JS_linting_with_ESLint)
 * Check out more documentations at [http://firefox-dev.tools/](http://firefox-dev.tools/) and [http://docs.firefox-dev.tools/](http://docs.firefox-dev.tools/)
@@ -212,4 +213,23 @@ mk_add_options MOZ_OBJDIR=./objdir-frontend
 * After completing your build of Firefox. To run the local Firefox you built:
 ```
 ./mach run
+```
+
+# Setup MozReview
+
+See http://mozilla-version-control-tools.readthedocs.io/en/latest/mozreview/install-git.html#mozreview-install-git. This is how you will commit your local changes for code review. Also see [http://mozilla-version-control-tools.readthedocs.io/en/latest/mozreview/commits.html#](http://mozilla-version-control-tools.readthedocs.io/en/latest/mozreview/commits.html#)
+
+# Typical Process
+
+```
+# You take on a bug.
+cd gecko
+git remote update
+git checkout -b bug123 mozilla/central
+# Make some changes.
+git add .
+git commit -m "Bug 123 - Some Bug Description. r=gl"
+git mozreview push
+# You might get some code review feedback and need to make some changes.
+# Make the changes and squash the commits and repush to mozreview
 ```
