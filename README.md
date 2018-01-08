@@ -14,7 +14,7 @@ Create an account on https://bugzilla.mozilla.org/. Mozilla’s Bugzilla is wher
 
 ## Getting the Source
 
-If you are building on Windows, consult this guide to get the required tools - [Building Firefox On Windows](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_Prerequisites). We will be using a git workflow compare to what is mentioned in the Building Firefox On Windows guide, so come back when you reach "Getting The Source" in that guide.
+If you are building on Windows, consult this guide to get the required tools - [Building Firefox On Windows](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_Prerequisites). We will be using a git workflow compare to what is mentioned in the Building Firefox On Windows guide, so come back when you reach "Build Firefox!" in that guide.
 
 The general guide for git workflow for Firefox (Gecko is the name of the layout engine) development can be found on this wiki:
 [Git Workflow Guide](https://github.com/glandium/git-cinnabar/wiki/Mozilla:-A-git-workflow-for-Gecko-development).
