@@ -1,11 +1,14 @@
 # Firefox Developer Tools
 
+You will find the DevTools source code lives inside of devtools/. The client code of the Inspector lives inside of devtools/client/inspector/.
+
 # Tasks to Complete
 * [Create a Mozilla Bugzilla Account](#create-a-mozilla-bugzilla-account)
 * [Setup Development Environment](#setup-development-environment)
 * Join Slack for Communication - [Firefox DevTools Slack](https://devtools-html-slack.herokuapp.com/)
 * Setup ESLint for your Text Editor - [ESLint Setup Guide](https://wiki.mozilla.org/DevTools/CodingStandards#JS_linting_with_ESLint)
 * Check out more documentations at [http://firefox-dev.tools/](http://firefox-dev.tools/) and [http://docs.firefox-dev.tools/](http://docs.firefox-dev.tools/)
+* Bookmark [https://searchfox.org/](https://searchfox.org/). Searchfox easily allows you to search through the code base.
 
 # Create a Mozilla Bugzilla Account
 
